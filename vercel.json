@@ -1,0 +1,7 @@
+{
+  "framework": null,
+  "buildCommand": "npx vite build",
+  "rewrites": [
+    { "source": "/images/:path*", "destination": "https://raw.githubusercontent.com/mfc6b2ntdk-cyber/KellzKitchenSac/main/public/images/:path*" }
+  ]
+}
